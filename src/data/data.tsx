@@ -15,7 +15,7 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
 //import heroImage from '../images/header-background.webp';
 import heroImage from '../images/heroBanner3.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import ASGARDWebsite from '../images/portfolio/AsgardWebsite1.png';
 import OrbitMessenger from '../images/portfolio/OrbitMessenger.png';
 import EggciteBike from '../images/portfolio/EggciteBike.png';
 import Eggman from '../images/portfolio/Eggman.png';
@@ -33,7 +33,7 @@ import NCBROWSE from '../images/portfolio/ncBrowse.png';
 import Scapegoat from '../images/portfolio/ScapegoatTree.png';
 import QuickCustomer from '../images/portfolio/QuickCustomer.png';
 import profilepic from '../images/AboutMePIC.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/BANGOR_ME.jpg';
 import Brody from '../images/Brody.jpg';
 import Amber from '../images/AmberMartinson.jpg';
 import Michael from '../images/MichaelMorin.jpg';
@@ -246,7 +246,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'ASGARD Portfolio Website',
     description: 'Portfolio website created for the 521 Software Engineering Squadron to highlight the programs and porjects menat to be used as an advertising method to obtain new talent.',
     url: 'https://reactresume.com',
-    image: porfolioImage1,
+    image: ASGARDWebsite,
   },
   {
     title: 'Orbit Messenger',
