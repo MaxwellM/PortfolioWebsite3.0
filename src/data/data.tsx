@@ -13,7 +13,8 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+//import heroImage from '../images/header-background.webp';
+import heroImage from '../images/heroBanner3.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import OrbitMessenger from '../images/portfolio/OrbitMessenger.png';
 import EggciteBike from '../images/portfolio/EggciteBike.png';
@@ -33,6 +34,9 @@ import Scapegoat from '../images/portfolio/ScapegoatTree.png';
 import QuickCustomer from '../images/portfolio/QuickCustomer.png';
 import profilepic from '../images/AboutMePIC.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import Brody from '../images/Brody.jpg';
+import Amber from '../images/AmberMartinson.jpg';
+import Michael from '../images/MichaelMorin.jpg';
 import {
   About,
   ContactSection,
@@ -301,7 +305,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'MEDEVIL FPS Game - Unity',
     description: 'Introductory Unity programming course where my final project for the class was to create a game. I choose to produce a 3D action game that featured a realistic medieval environment. The game featured a one square mile realistic environment, night-day system, enemy AI, and rag-doll physics. The game makes use of multiple assets such as: UFPS (Player/AI mechanics), UniStorm (weather), Medieval World Creation Kit (buildings), and the sound effects from Chivalry: Medieval Warfare.',
-    url: '',
+    url: 'https://www.youtube.com/watch?v=lLubwtxyyqo',
     image: MEDEVILFPS,
   },
   {
@@ -366,7 +370,7 @@ export const experience: TimelineItem[] = [
     location: '517 Software Engineering Squadron',
     title: 'Section Chief',
     content: (
-      <p>
+      <p className="prose prose-sm sm:prose-base">
         Operate as a First Line Supervisor for three teams, spanning 14 individuals, as a Project Director, and 
         working as an integrated civilian for our customers.
       </p>
@@ -377,7 +381,7 @@ export const experience: TimelineItem[] = [
     location: '521 Software Engineering Squadron',
     title: 'Deputy Project Director',
     content: (
-      <p>
+      <p className="prose prose-sm sm:prose-base">
         Operated as a second-in-command over a suite of applications named collectively as Torque that are tasked 
         with aircraft maintenance/operations scheduling and personnel management. Torque consists of five separate 
         product teams of around 40 individuals.
@@ -389,7 +393,7 @@ export const experience: TimelineItem[] = [
     location: '521 Software Engineering Squadron',
     title: 'Lead Product Owner',
     content: (
-      <p>
+      <p className="prose prose-sm sm:prose-base">
         Lead and Owner of two software products, for the Torque project, that utilized modern web development languages, 
         libraries, and frameworks, focusing on aircraft maintenance and operations scheduling. Managed a team of eight 
         individuals through an Agile environment and the use of GitLab. Wrote user stories to describe new features, 
@@ -408,7 +412,7 @@ export const experience: TimelineItem[] = [
     location: '521 Software Engineering Squadron',
     title: 'Product Owner',
     content: (
-      <p>
+      <p className="prose prose-sm sm:prose-base">
         Owner of four software products for the F35 through a partnership between the 309th SWEG and KesselRun. Managed a team 
         of 14 individuals, across the four teams, through an Agile environment and the use of PivotalTracker. Wrote user stories 
         to describe new features, oversee the product's backlog, and validate what the Developers have delivered. Worked to keep 
@@ -425,7 +429,7 @@ export const experience: TimelineItem[] = [
     location: '521 Software Engineering Squadron',
     title: 'Product Owner',
     content: (
-      <p>
+      <p className="prose prose-sm sm:prose-base">
         Owner of four software products for the F35 through a partnership between the 309th SWEG and KesselRun. Managed a team 
         of 14 individuals, across the four teams, through an Agile environment and the use of PivotalTracker. Wrote user stories 
         to describe new features, oversee the product's backlog, and validate what the Developers have delivered. Worked to keep 
@@ -442,7 +446,7 @@ export const experience: TimelineItem[] = [
     location: 'LogMet',
     title: 'Electronics Engineer Contractor',
     content: (
-      <p>
+      <p className="prose prose-sm sm:prose-base">
         (D) Level Maintenance and related tasks for the 309th Electronics Maintenance Group (EMXG), Ogden Air Logistics Complex 
         (OO-ALC) at Hill Air Force Base (AFB), Utah (UT). Main duties were to troubleshoot faulty mechanic instruments from both 
         F-16 Fighting Falcons and C-130 Hercules aircraft. Tasks involved diagnosing electrical and electronic malfunctions within 
@@ -459,7 +463,7 @@ export const experience: TimelineItem[] = [
     location: 'SpotterRF',
     title: 'Product Owner, Full-Stack Dev, & IT Manager',
     content: (
-      <p>
+      <p className="prose prose-sm sm:prose-base">
         Owner of two internal software products: manufacturing and web business development. Designed web sites with features like 
         Active Directory Lightweight Directory Access Protocol (LDAP) Authentication, quality assurance tools, saving statistics and 
         snapshots to databases for tested and released products. Served as an interdepartmental liaison. Worked as an intermediary 
@@ -487,19 +491,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Brody Prestwich',
+      text: 'The Table I bought from Mainely Restorations has a smooth sheen on top which is perfect! You can tell he takes time sanding and finishing them.',
+      image: Brody,
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Michael Morin',
+      text: 'Practice makes perfect.',
+      image: Michael,
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Amber Martinson, PhD',
+      text: 'Mainely Restorations was something we werent looking for, but so glad we stumbled upon! The craftsmanship, quality, and love that goes into each piece is evident. We couldnt be happier with our new office chair. So happy to have a small business to support rather than those big box stores. Will come back for more!',
+      image: Amber,
     },
   ],
 };
@@ -510,7 +514,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Have a question or want to work together?',
   items: [
     {
       type: ContactType.Email,
