@@ -323,7 +323,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Turtles - Java',
     description: 'In my object-oriented programming course I created a simulation with "turtles" that were set on a random path. Upon a turtle and turtle collision they would become sick, turn a darker color, and slow down for a certain length of time. If a turtle collided while being sick, each subsequent collision would increase the duration of its sickness also changing its color and speed. There was also a GUI window that displayed the current turtles direction and color. The simulation also included a counter for the infected turtles and a reset/pause feature.',
-    url: 'https://github.com/MaxwellM/JavaObjectOrientedProgrammingProjects',
+    url: 'https://www.youtube.com/shorts/exKEhxIWusw',
     image: Turtles,
   },
   {
