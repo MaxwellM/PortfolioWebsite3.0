@@ -262,19 +262,19 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'EggciteBike Game - Unity',
     description: 'Eggcite Bike was created in Unity(V4.6). Every character and bicycle is powered by the use of Rigidbody2D, WheelJoint2D, HingeJoint2D, DistanceJoint2D, and SpringJoint2D components. The bicycles are powered through the WheelJoint2D components that rotate the wheel itself to create movement based upon user input. The goal is to reach the end of the level without crashing. Since you had no choice but to be an egg if you collide with anything you will break. You can rotate the bicycle by pressing the Q/E keys to help maintain balance.',
-    url: 'https://www.youtube.com/watch?v=swFlBIYBvLk',
+    url: 'https://play.unity.com/en/games/4dbab006-66c2-4b26-a773-fcdc78083d08/eggcitebike6webgl',
     image: EggciteBike,
   },
   {
     title: 'Eggman Game - Unity',
     description: 'In my graduate level Advanced Unity Programming course I choose to do a 2D game. I did two projects this semester and this was my second one. This game was built in Unity(V4.6) and the images were created in Photoshop. This title demos Unitys Rigidbody 2D physics where two AI battle. The game showcases independent limb-to-limb movement instead of the traditional character controller approach. The logic the AI follows is built from three simple rules. If the enemy has a distance larger more than 25, move closer. If the enemy has a distance less than 12, move away. Upon being hit, the character will randomly choose between three attack styles, clockwise, counter clockwise, and random. Also there is a small random chance of jumping too, how fun?',
-    url: 'https://www.youtube.com/watch?v=GyfHQSEqoBI',
+    url: 'https://play.unity.com/en/games/0daf6cb7-bc3f-49d7-87ea-aad85aba2f5a/eggman6webgl',
     image: Eggman,
   },
   {
     title: 'Lost in Space Game - Unity',
     description: 'I present to you, Lost in Space: Cosmonaut Edition. Formally known as Orbital Physics 2.0! A touch of satire can make learning fun! The game is currently in alpha stages (started 12 hours ago). All artwork/scripting/physics were created by me (and Sir Isaac Newton). This video is intended to demo a C# implementation of Newtonian Physics and a rough working main menu screen. More to follow, so stay tuned.',
-    url: 'https://www.youtube.com/watch?v=WqnNbWuZIdU',
+    url: 'https://play.unity.com/en/games/f2e3254f-128c-4a4b-b9dc-e5b1def36b5d/lostinspace6webgl',
     image: LostInSpace,
   },
   {
