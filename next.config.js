@@ -15,13 +15,21 @@ const nextConfig = {
 
     return config;
   },
+  turbopack: {
+    rules: {
+      ".svg": {
+        loaders: ["@svgr/webpack"],
+        as: "*.js",
+      },
+    },
+  },
   compress: true,
   generateEtags: true,
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
   reactStrictMode: true,
-  swcMinify: true,
+  // swcMinify: true,
   trailingSlash: false,
   images: {
     remotePatterns: [
