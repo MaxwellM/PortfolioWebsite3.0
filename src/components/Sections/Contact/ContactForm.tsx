@@ -1,5 +1,5 @@
 import emailjs from '@emailjs/browser';
-import {FC, memo, useCallback, useMemo, useState} from 'react';
+import {FC, memo, useCallback, useMemo, useRef, useState} from 'react';
 
 interface FormData {
   name: string;
@@ -8,6 +8,7 @@ interface FormData {
 }
 
 const ContactForm: FC = memo(() => {
+  const formRef = useRef<HTMLFormElement>(null);
   const userId = process.env.NEXT_PUBLIC_EMAILJS_USER_ID as string;
   const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string;
   const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string;
@@ -55,9 +56,7 @@ const ContactForm: FC = memo(() => {
           `${serviceId}`,
           `${templateId}`,
           {
-            //email: data.email,
             to_email: 'maxwellrmorin@gmail.com',
-            //user_email: 'maxwellrmorin@gmail.com',
             from_name: data.name,
             from_email: data.email,
             message: data.message,
@@ -68,6 +67,10 @@ const ContactForm: FC = memo(() => {
         alert('Message sent successfully!');
 
         setData(defaultData);
+        // Clears the inputs upon success!
+        if (formRef.current) {
+            formRef.current.reset();
+        };
       } catch (error) {
         console.error('Failed to send email:', error);
         alert('Failed to send message. Please try again.');
@@ -80,7 +83,7 @@ const ContactForm: FC = memo(() => {
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
-    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
+    <form ref={formRef} className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
         autoComplete="email"
