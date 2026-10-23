@@ -385,8 +385,8 @@ export const experience: TimelineItem[] = [
     title: 'Flight Chief',
     content: (
       <p className="prose prose-sm sm:prose-base">
-        Operate as a Second Line Supervisor for twenty eight teams, spanning 130 individuals, as a Flight Chief, and 
-        working as an integrated civilian for our customers.
+        Operate as a Flight Chief (Second Line Supervisor) for 28 teams, spanning 130 individuals, and 
+        as an integrated civilian for our customers.
       </p>
     ),
   },
@@ -396,8 +396,8 @@ export const experience: TimelineItem[] = [
     title: 'Section Chief',
     content: (
       <p className="prose prose-sm sm:prose-base">
-        Operated as a First Line Supervisor for three teams, spanning 14 individuals, as a Section Chief and Project Director, and 
-        working as an integrated civilian for our customers.
+        Operated as a Section Chief (First Line Supervisor) and Project Directort, for three teams, spanning 14 individuals, and 
+        as an integrated civilian for our customers.
       </p>
     ),
   },
