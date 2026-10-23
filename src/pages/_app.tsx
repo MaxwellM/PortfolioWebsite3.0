@@ -1,4 +1,5 @@
 //import 'tailwindcss/tailwind.css';
+// @ts-expect-error SCSS imports are handled by Next.js.
 import '../globalStyles.scss';
 
 import type {AppProps} from 'next/app';

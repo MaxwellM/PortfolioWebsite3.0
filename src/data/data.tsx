@@ -120,7 +120,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Interests include web development, cooking, and Star Wars. I have experience as a Section Chief, Project Director, Product Owner, Full-Stack Engineer, and IT Manager. Primarily my experience has derived from working for the Air Force building emergent software for the F-35, Sentinel Nuclear Missile Program,  Minuteman III Missile Program, and from a private company that builds compact radars for commercial and military use. Also worked as an IT consultant for the University of Maine's Psychology Department and on an IT Help Desk at a large construction company. For more info, check out my projects on GitHub.`,
+  description: `Interests include web development, cooking, and Star Wars. I have experience as a Flight Chief, Section Chief, Project Director, Product Owner, Full-Stack Engineer, and IT Manager. Primarily my experience has derived from working for the Air Force building emergent software for the F-35, Sentinel Nuclear Missile Program,  Minuteman III Missile Program, and from a private company that builds compact radars for commercial and military use. Also worked as an IT consultant for the University of Maine's Psychology Department and on an IT Help Desk at a large construction company. For more info, check out my projects on GitHub.`,
   aboutItems: [
     {label: 'Location', text: 'West Haven, UT', Icon: MapIcon},
     {label: 'Age', text: '39', Icon: CalendarIcon},
