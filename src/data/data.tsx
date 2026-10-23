@@ -208,7 +208,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Microsoft Power App Suite',
+    name: 'Microsoft Power Platform',
     skills: [
       {
         name: 'Power Apps',
@@ -239,6 +239,15 @@ export const skills: SkillGroup[] = [
         name: 'Customer Relations',
         level: 7,
       },
+    ],
+  },
+    {
+    name: 'Game Development',
+    skills: [
+      {
+        name: 'Unity',
+        level: 7,
+      }
     ],
   },
 ];
@@ -387,7 +396,7 @@ export const experience: TimelineItem[] = [
     title: 'Section Chief',
     content: (
       <p className="prose prose-sm sm:prose-base">
-        Operate as a First Line Supervisor for three teams, spanning 14 individuals, as a Section Chief and Project Director, and 
+        Operated as a First Line Supervisor for three teams, spanning 14 individuals, as a Section Chief and Project Director, and 
         working as an integrated civilian for our customers.
       </p>
     ),
