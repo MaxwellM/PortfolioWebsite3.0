@@ -83,7 +83,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Utah based <strong className="text-stone-100">Section Chief, Project Director, Product Owner, and Full Stack Software Engineer</strong>, currently working
+        I'm a Utah based <strong className="text-stone-100">Flight Chief, Project Director, Product Owner, and Full Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100">AFSC/SW based out of Hill, AFB</strong> helping build a modern, web-based softare, for the missileers
         of our country.
       </p>
@@ -124,7 +124,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'West Haven, UT', Icon: MapIcon},
     {label: 'Age', text: '37', Icon: CalendarIcon},
-    {label: 'Clearance', text: 'TS', Icon: FlagIcon},
+    {label: 'Clearance', text: 'TS//SCI//SAR', Icon: FlagIcon},
     {label: 'Interests', text: 'Tinkering, Coding, Cooking', Icon: SparklesIcon},
     {label: 'Study', text: 'Univeristy of Maine', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Unites States Air Foce', Icon: BuildingOffice2Icon},
@@ -370,13 +370,24 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+    {
+    date: 'April 2026 - Present',
+    location: '517 Software Engineering Squadron',
+    title: 'Flight Chief',
+    content: (
+      <p className="prose prose-sm sm:prose-base">
+        Operate as a Second Line Supervisor for twenty eight teams, spanning 130 individuals, as a Flight Chief, and 
+        working as an integrated civilian for our customers.
+      </p>
+    ),
+  },
   {
-    date: 'December 2022 - Present',
+    date: 'December 2022 - April 2026',
     location: '517 Software Engineering Squadron',
     title: 'Section Chief',
     content: (
       <p className="prose prose-sm sm:prose-base">
-        Operate as a First Line Supervisor for three teams, spanning 14 individuals, as a Project Director, and 
+        Operate as a First Line Supervisor for three teams, spanning 14 individuals, as a Section Chief and Project Director, and 
         working as an integrated civilian for our customers.
       </p>
     ),
