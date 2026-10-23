@@ -364,17 +364,23 @@ export const portfolioItems: PortfolioItem[] = [
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
+    {
+    date: 'Expected 2028',
+    location: 'Air Command and Staff College (ACSC)',
+    title: 'Master of Military Operational Art and Science (MMOAS)',
+    content: <p>At Air Command and Staff College, I earned a Master of Military Operational Art and Science (MMOAS) through the Joint Warfare Concentration, completing advanced studies in command, leadership, warfare, airpower, joint operations, joint planning, international security, and military research while also earning Joint Professional Military Education (JPME I) credit. The program strengthened my ability to analyze complex military and strategic challenges, develop operational plans, understand joint and multinational force integration, evaluate security environments, and apply airpower and warfare concepts to real-world missions. Through research-intensive coursework and studies in command and leadership, I developed advanced critical thinking, strategic decision-making, operational planning, leadership, communication, and analytical research skills applicable to my civilian leadership roles.</p>,
+  },
   {
     date: 'May 2015',
     location: 'University of Maine',
     title: 'Bachelors in Computer Science',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>At the University of Maine, I earned a Bachelor of Science in Computer Science, where I built a strong foundation in programming, object-oriented design, data structures, algorithms, software engineering, operating systems, computer architecture, programming languages, automata theory, and computer ethics. Through coursework and capstone projects, including advanced video game programming and software development projects, I gained hands-on experience in software design, problem-solving, system analysis, debugging, project planning, and the application of computational theory to real-world challenges. The program also strengthened my analytical thinking, mathematical reasoning, teamwork, and technical communication skills, preparing me to design, develop, and evaluate complex software systems in professional environments.</p>,
   },
   {
     date: 'May 2012',
     location: 'Eastern Maine Community College',
     title: 'AA in Liberal Studies',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>At Eastern Maine Community College, I earned an Associate of Arts in Liberal Studies with Honors, maintaining a strong academic record while studying a diverse curriculum that included psychology, sociology, history, ethics, biology, algebra, journalism, literature, government, and business writing. Through this interdisciplinary program, I developed strong written and verbal communication skills, critical thinking, ethical reasoning, research and analysis abilities, quantitative problem-solving skills, and a broader understanding of human behavior, society, and the natural sciences. My coursework in human relations, psychology, business law, technical writing, and journalism also strengthened my interpersonal communication, professional writing, teamwork, and relationship-building skills that are valuable in both professional and academic settings.</p>,
   },
 ];
 
